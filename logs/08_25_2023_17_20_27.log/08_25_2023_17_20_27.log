@@ -1,0 +1,7 @@
+[ 2023-08-25 17:20:28,505 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-25 17:20:28,521 ] 187 werkzeug - INFO -  * Debugger PIN: 108-040-925
+[ 2023-08-25 17:20:28,922 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 17:20:28] "GET /predict HTTP/1.1" 200 -
+[ 2023-08-25 17:20:29,039 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 17:20:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[ 2023-08-25 17:20:36,226 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 17:20:36] "POST /predict HTTP/1.1" 200 -
+[ 2023-08-25 17:20:36,389 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 17:20:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+[ 2023-08-25 17:21:20,329 ] 187 werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Desktop\\Sunbase\\task\\app.py', reloading

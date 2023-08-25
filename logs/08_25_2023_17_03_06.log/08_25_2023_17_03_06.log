@@ -1,0 +1,8 @@
+[ 2023-08-25 17:03:06,988 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-25 17:03:07,000 ] 187 werkzeug - INFO -  * Debugger PIN: 108-040-925
+[ 2023-08-25 17:03:26,623 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 17:03:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-08-25 17:03:26,818 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 17:03:26] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-08-25 17:03:26,822 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 17:03:26] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-08-25 17:03:26,907 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 17:03:26] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-08-25 17:03:26,964 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 17:03:26] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-25 17:04:05,998 ] 187 werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Desktop\\Sunbase\\task\\src\\pipeline\\predict_pipeline.py', reloading

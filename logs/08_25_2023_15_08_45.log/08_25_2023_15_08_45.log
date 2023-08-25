@@ -1,0 +1,13 @@
+[ 2023-08-25 15:08:47,383 ] 28 root - INFO - Entered the data ingestion method or component
+[ 2023-08-25 15:08:47,488 ] 33 root - INFO - Read the dataset as dataframe
+[ 2023-08-25 15:08:48,292 ] 39 root - INFO - Train test split initiated
+[ 2023-08-25 15:08:48,789 ] 43 root - INFO - Ingestion of data is completed
+[ 2023-08-25 15:08:48,885 ] 74 root - INFO - Read train and test data for transforming completed
+[ 2023-08-25 15:08:48,885 ] 76 root - INFO - Obtaining preprocessing object
+[ 2023-08-25 15:08:48,885 ] 50 root - INFO - Categorical columns: ['Gender', 'Location']
+[ 2023-08-25 15:08:48,885 ] 51 root - INFO - Numerical columns: ['Age', 'Subscription_Length_Months', 'Monthly_Bill', 'Total_Usage_GB']
+[ 2023-08-25 15:08:48,885 ] 89 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2023-08-25 15:08:49,052 ] 101 root - INFO - Saved preprocessing object.
+[ 2023-08-25 15:08:49,070 ] 30 root - INFO - Split training and test input data
+[ 2023-08-25 15:08:53,365 ] 79 root - INFO - Model Name: Decision Tree  Test score: {'Accuracy': 0.49745, 'Precision': 0.49994968300291837, 'Recall': 0.4943283582089552, 'Specficity': 0.5006030150753769, 'F1': 0.4971231300345224}  Train score: {'Accuracy': 1.0, 'Precision': 1.0, 'Recall': 1.0, 'Specficity': 1.0, 'F1': 1.0}
+[ 2023-08-25 15:08:53,365 ] 80 root - INFO - Best Parameters: {}

@@ -1,0 +1,4 @@
+[ 2023-08-25 17:22:12,384 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-25 17:22:12,384 ] 187 werkzeug - INFO -  * Debugger PIN: 108-040-925
+[ 2023-08-25 17:22:40,926 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 17:22:40] "GET /predict HTTP/1.1" 200 -
+[ 2023-08-25 17:22:41,070 ] 187 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2023 17:22:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -

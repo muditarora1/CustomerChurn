@@ -1,0 +1,21 @@
+[ 2023-08-25 15:12:24,498 ] 28 root - INFO - Entered the data ingestion method or component
+[ 2023-08-25 15:12:24,617 ] 33 root - INFO - Read the dataset as dataframe
+[ 2023-08-25 15:12:25,142 ] 39 root - INFO - Train test split initiated
+[ 2023-08-25 15:12:25,613 ] 43 root - INFO - Ingestion of data is completed
+[ 2023-08-25 15:12:25,707 ] 74 root - INFO - Read train and test data for transforming completed
+[ 2023-08-25 15:12:25,707 ] 76 root - INFO - Obtaining preprocessing object
+[ 2023-08-25 15:12:25,707 ] 50 root - INFO - Categorical columns: ['Gender', 'Location']
+[ 2023-08-25 15:12:25,707 ] 51 root - INFO - Numerical columns: ['Age', 'Subscription_Length_Months', 'Monthly_Bill', 'Total_Usage_GB']
+[ 2023-08-25 15:12:25,707 ] 89 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2023-08-25 15:12:25,886 ] 101 root - INFO - Saved preprocessing object.
+[ 2023-08-25 15:12:25,899 ] 30 root - INFO - Split training and test input data
+[ 2023-08-25 15:12:30,047 ] 79 root - INFO - Model Name: Decision Tree  Test score: {'Accuracy': 0.50245, 'Precision': 0.505003537855049, 'Recall': 0.49711442786069654, 'Specficity': 0.5078391959798995, 'F1': 0.5010279295993582}  Train score: {'Accuracy': 1.0, 'Precision': 1.0, 'Recall': 1.0, 'Specficity': 1.0, 'F1': 1.0}
+[ 2023-08-25 15:12:30,047 ] 80 root - INFO - Best Parameters: {}
+[ 2023-08-25 15:13:50,297 ] 79 root - INFO - Model Name: Random Forest Classifier  Test score: {'Accuracy': 0.5009, 'Precision': 0.5071368597816961, 'Recall': 0.24039800995024876, 'Specficity': 0.7640201005025126, 'F1': 0.3261779397866883}  Train score: {'Accuracy': 0.5167375, 'Precision': 0.5271286323917903, 'Recall': 0.2611694228397392, 'Specficity': 0.7688659333018798, 'F1': 0.3492838267719186}
+[ 2023-08-25 15:13:50,297 ] 80 root - INFO - Best Parameters: {'n_estimators': 10, 'min_samples_split': 150, 'min_samples_leaf': 4, 'max_depth': 4, 'criterion': 'entropy'}
+[ 2023-08-25 15:14:09,839 ] 79 root - INFO - Model Name: XGBClassifier  Test score: {'Accuracy': 0.5086, 'Precision': 0.5118665811417575, 'Recall': 0.4764179104477612, 'Specficity': 0.541105527638191, 'F1': 0.4935064935064935}  Train score: {'Accuracy': 0.6568375, 'Precision': 0.664179104477612, 'Recall': 0.6250094389488786, 'Specficity': 0.6882371930173078, 'F1': 0.6439992219412565}
+[ 2023-08-25 15:14:09,839 ] 80 root - INFO - Best Parameters: {}
+[ 2023-08-25 15:14:10,858 ] 79 root - INFO - Model Name: Logistic  Test score: {'Accuracy': 0.49895, 'Precision': 0.5024202971123352, 'Recall': 0.29950248756218906, 'Specficity': 0.7004020100502513, 'F1': 0.37528832367059406}  Train score: {'Accuracy': 0.5050625, 'Precision': 0.5027944611277945, 'Recall': 0.30343074328576103, 'Specficity': 0.7039805318964019, 'F1': 0.3784632289459226}
+[ 2023-08-25 15:14:10,858 ] 80 root - INFO - Best Parameters: {}
+[ 2023-08-25 15:14:30,356 ] 79 root - INFO - Model Name: AdaBoost Classifier  Test score: {'Accuracy': 0.4993, 'Precision': 0.5025188916876574, 'Recall': 0.3573134328358209, 'Specficity': 0.642713567839196, 'F1': 0.41765526866713193}  Train score: {'Accuracy': 0.5144625, 'Precision': 0.5152035143112087, 'Recall': 0.3778600015102318, 'Specficity': 0.6492264905266817, 'F1': 0.435970784265323}
+[ 2023-08-25 15:14:30,356 ] 80 root - INFO - Best Parameters: {}
